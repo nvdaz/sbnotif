@@ -1,0 +1,12 @@
+[
+{
+  "modid": "sbnotifications",
+  "name": "SB Notifications",
+  "description": "Display certain chat messages as notifications in Hypixel Skyblock.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["nvda"]
+}
+]

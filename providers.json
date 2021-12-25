@@ -1,0 +1,47 @@
+[
+  {
+    "regex": "^(sell offer|buy order) setup! ([0-9,]+x) ([a-z ]+) for ([0-9,.]+) coins.$",
+    "ln1": "$1 Setup!",
+    "ln2": "$2 $3 for $4"
+  },
+  {
+    "regex": "^Bazaar! Claimed ([0-9,.]+x) ([a-z ]+) worth ([0-9,.]+) coins bought for ([0-9,.]+) each!$",
+    "ln1": "Order Claimed!",
+    "ln2": "$1 $2 worth $3 ($4 ea.)"
+  },
+  {
+    "regex": "^Bazaar! Claimed ([0-9,.]+) coins from selling ([0-9 ]+x) ([a-z ]+) at ([0-9,.]+) each!$",
+    "ln1": "Order Claimed!",
+    "ln2": "$2 $3 for $1 ($4 ea.)"
+  },
+  {
+    "regex": "^Sending to server (mini|mega)([0-9a-z]{2,4})\.?\.?\.?$",
+    "ln1": "Sending to server",
+    "ln2": "$1$2"
+  },
+  {
+    "regex": "^Used ([a-z ]+)! \\(([0-9]+) mana\\)$",
+    "ln1": "Used $1",
+    "ln2": "costing $2 Mana"
+  },
+  {
+    "regex": "^Putting goods in escrow...$",
+    "ln1": "Transferring goods",
+    "ln2": "to escrow"
+  },
+  {
+    "regex": "^Submitting buy order...$",
+    "ln1": "Submitting Order",
+    "ln2": ""
+  },
+  {
+    "regex": "^Claiming order...$",
+    "ln1": "Claiming order",
+    "ln2": ""
+  },
+  {
+    "regex": "Warped from the ([A-z]+) Teleport Pad to the ([A-z]+) Teleport Pad!",
+    "ln1": "Warped",
+    "ln2": "$1 -> $2"
+  }
+]
